@@ -1,0 +1,75 @@
+CRITICAL - 2022-02-14 00:02:43 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\360HRIS\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\360HRIS\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\360HRIS\system\Model.php(228): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\360HRIS\system\BaseModel.php(644): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\360HRIS\app\Controllers\BaseController.php(45): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(901): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#6 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#7 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-14 01:35:04 --> Call to a member function getNumRows() on bool
+#0 C:\xampp\htdocs\360HRIS\system\View\View.php(230): include()
+#1 C:\xampp\htdocs\360HRIS\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\360HRIS\system\Common.php(1271): CodeIgniter\View\View->render('erp/leave_repor...', Array, true)
+#3 C:\xampp\htdocs\360HRIS\app\Controllers\Erp\Leave.php(139): view('erp/leave_repor...', Array)
+#4 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(928): App\Controllers\Erp\Leave->leave_summary_report()
+#5 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\Leave))
+#6 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-14 02:13:27 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\360HRIS\system\View\View.php(230): include()
+#1 C:\xampp\htdocs\360HRIS\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\360HRIS\system\Common.php(1271): CodeIgniter\View\View->render('erp/leave_repor...', Array, true)
+#3 C:\xampp\htdocs\360HRIS\app\Controllers\Erp\Leave.php(139): view('erp/leave_repor...', Array)
+#4 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(928): App\Controllers\Erp\Leave->leave_summary_report()
+#5 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\Leave))
+#6 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-14 02:15:24 --> A non-numeric value encountered
+#0 C:\xampp\htdocs\360HRIS\app\Views\erp\leave_reports\leave_summary_reports.php(330): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 330, Array)
+#1 C:\xampp\htdocs\360HRIS\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\360HRIS\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\360HRIS\system\Common.php(1271): CodeIgniter\View\View->render('erp/leave_repor...', Array, true)
+#4 C:\xampp\htdocs\360HRIS\app\Controllers\Erp\Leave.php(139): view('erp/leave_repor...', Array)
+#5 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(928): App\Controllers\Erp\Leave->leave_summary_report()
+#6 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\Leave))
+#7 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-14 07:54:03 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\360HRIS\app\Controllers\Erp\Types.php(3600): checkCarryBalnce()
+#1 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(928): App\Controllers\Erp\Types->close_year()
+#2 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\Types))
+#3 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-14 09:58:02 --> syntax error, unexpected '}', expecting ';' or ','
+#0 C:\xampp\htdocs\360HRIS\system\Controller.php(92): helper(Array)
+#1 C:\xampp\htdocs\360HRIS\app\Controllers\BaseController.php(36): CodeIgniter\Controller->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(901): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#3 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#4 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-14 09:58:03 --> syntax error, unexpected '}', expecting ';' or ','
+#0 C:\xampp\htdocs\360HRIS\system\Controller.php(92): helper(Array)
+#1 C:\xampp\htdocs\360HRIS\app\Controllers\BaseController.php(36): CodeIgniter\Controller->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(901): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#3 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#4 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-14 07:58:09 --> Argument 1 passed to CodeIgniter\I18n\Time::parse() must be of the type string, null given, called in C:\xampp\htdocs\360HRIS\app\Helpers\main_helper.php on line 1871
+#0 C:\xampp\htdocs\360HRIS\app\Helpers\main_helper.php(1871): CodeIgniter\I18n\Time::parse(NULL)
+#1 C:\xampp\htdocs\360HRIS\app\Controllers\Erp\Types.php(3600): checkCarryBalnce()
+#2 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(928): App\Controllers\Erp\Types->close_year()
+#3 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\Types))
+#4 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}

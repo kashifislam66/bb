@@ -1,0 +1,157 @@
+CRITICAL - 2022-02-18 01:55:00 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\360HRIS\system\Security\Security.php(240): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\360HRIS\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\360HRIS\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('/erp/polls/add_...', 'before')
+#4 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-18 01:55:08 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\360HRIS\system\Security\Security.php(240): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\360HRIS\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\360HRIS\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('/erp/polls/add_...', 'before')
+#4 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-18 01:55:19 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\360HRIS\system\Security\Security.php(240): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\360HRIS\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\360HRIS\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('/erp/polls/add_...', 'before')
+#4 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-18 01:58:39 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\360HRIS\system\Security\Security.php(240): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\360HRIS\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\360HRIS\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('/erp/polls/add_...', 'before')
+#4 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-18 01:59:22 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\360HRIS\system\Security\Security.php(240): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\360HRIS\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\360HRIS\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('/erp/polls/add_...', 'before')
+#4 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-18 02:00:22 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\360HRIS\system\Security\Security.php(240): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\360HRIS\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\360HRIS\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('/erp/polls/add_...', 'before')
+#4 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-18 01:01:08 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::set() must be of the type string or null, array given, called in C:\xampp\htdocs\360HRIS\system\Model.php on line 256
+#0 C:\xampp\htdocs\360HRIS\system\Model.php(256): CodeIgniter\Database\BaseBuilder->set('poll_question', Array, NULL)
+#1 C:\xampp\htdocs\360HRIS\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#2 C:\xampp\htdocs\360HRIS\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\xampp\htdocs\360HRIS\app\Controllers\Erp\Polls.php(225): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(928): App\Controllers\Erp\Polls->add_poll()
+#5 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\Polls))
+#6 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-18 01:03:30 --> Undefined variable: 3
+#0 C:\xampp\htdocs\360HRIS\app\Controllers\Erp\Polls.php(240): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 240, Array)
+#1 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(928): App\Controllers\Erp\Polls->add_poll()
+#2 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\Polls))
+#3 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-18 03:27:38 --> Undefined variable: questions
+#0 C:\xampp\htdocs\360HRIS\app\Views\erp\polls\dialog_poll.php(88): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 88, Array)
+#1 C:\xampp\htdocs\360HRIS\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\360HRIS\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\360HRIS\system\Common.php(1271): CodeIgniter\View\View->render('erp/polls/dialo...', Array, true)
+#4 C:\xampp\htdocs\360HRIS\app\Controllers\Erp\Polls.php(475): view('erp/polls/dialo...', Array)
+#5 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(928): App\Controllers\Erp\Polls->read_poll()
+#6 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\Polls))
+#7 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-18 03:28:47 --> Undefined variable: questions
+#0 C:\xampp\htdocs\360HRIS\app\Views\erp\polls\dialog_poll.php(88): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 88, Array)
+#1 C:\xampp\htdocs\360HRIS\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\360HRIS\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\360HRIS\system\Common.php(1271): CodeIgniter\View\View->render('erp/polls/dialo...', Array, true)
+#4 C:\xampp\htdocs\360HRIS\app\Controllers\Erp\Polls.php(475): view('erp/polls/dialo...', Array)
+#5 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(928): App\Controllers\Erp\Polls->read_poll()
+#6 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\Polls))
+#7 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-18 03:44:37 --> Undefined variable: required
+#0 C:\xampp\htdocs\360HRIS\app\Views\erp\polls\dialog_poll.php(89): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 89, Array)
+#1 C:\xampp\htdocs\360HRIS\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\360HRIS\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\360HRIS\system\Common.php(1271): CodeIgniter\View\View->render('erp/polls/dialo...', Array, true)
+#4 C:\xampp\htdocs\360HRIS\app\Controllers\Erp\Polls.php(475): view('erp/polls/dialo...', Array)
+#5 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(928): App\Controllers\Erp\Polls->read_poll()
+#6 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\Polls))
+#7 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-18 06:03:23 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\360HRIS\system\Security\Security.php(240): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\360HRIS\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\360HRIS\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('/erp/polls/upda...', 'before')
+#4 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-18 04:15:42 --> Unknown column 'poll_answer' in 'group statement'
+#0 C:\xampp\htdocs\360HRIS\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\360HRIS\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\360HRIS\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\360HRIS\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\360HRIS\system\Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\360HRIS\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\360HRIS\app\Views\erp\polls\poll_view.php(33): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\360HRIS\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\360HRIS\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#9 C:\xampp\htdocs\360HRIS\system\Common.php(1271): CodeIgniter\View\View->render('erp/polls/poll_...', Array, true)
+#10 C:\xampp\htdocs\360HRIS\app\Controllers\Erp\Polls.php(81): view('erp/polls/poll_...', Array)
+#11 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(928): App\Controllers\Erp\Polls->poll_view()
+#12 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\Polls))
+#13 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#15 {main}
+CRITICAL - 2022-02-18 05:39:44 --> Call to undefined method App\Models\PollsvotesModel::group_by
+#0 C:\xampp\htdocs\360HRIS\app\Views\erp\polls\poll_view.php(190): CodeIgniter\Model->__call('group_by', Array)
+#1 C:\xampp\htdocs\360HRIS\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\360HRIS\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\360HRIS\system\Common.php(1271): CodeIgniter\View\View->render('erp/polls/poll_...', Array, true)
+#4 C:\xampp\htdocs\360HRIS\app\Controllers\Erp\Polls.php(81): view('erp/polls/poll_...', Array)
+#5 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(928): App\Controllers\Erp\Polls->poll_view()
+#6 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\Polls))
+#7 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-18 09:20:19 --> whereIn() expects $values to be of type array or closure
+#0 C:\xampp\htdocs\360HRIS\system\Database\BaseBuilder.php(867): CodeIgniter\Database\BaseBuilder->_whereIn('user_id', '0,27', false, 'AND ', NULL)
+#1 C:\xampp\htdocs\360HRIS\system\Model.php(800): CodeIgniter\Database\BaseBuilder->whereIn('user_id', '0,27')
+#2 C:\xampp\htdocs\360HRIS\app\Helpers\notifications_helper.php(1159): CodeIgniter\Model->__call('whereIn', Array)
+#3 C:\xampp\htdocs\360HRIS\app\Helpers\notifications_helper.php(3925): top_level_notify_upon_submission_complaints('complaint_setti...')
+#4 C:\xampp\htdocs\360HRIS\app\Views\default\header.php(396): top_level_notifications_info()
+#5 C:\xampp\htdocs\360HRIS\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\360HRIS\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\360HRIS\system\Common.php(1271): CodeIgniter\View\View->render('default/header', Array, true)
+#8 C:\xampp\htdocs\360HRIS\app\Views\erp\layout\layout_main_company.php(93): view('default/header')
+#9 C:\xampp\htdocs\360HRIS\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\360HRIS\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#11 C:\xampp\htdocs\360HRIS\system\Common.php(1271): CodeIgniter\View\View->render('erp/layout/layo...', Array, true)
+#12 C:\xampp\htdocs\360HRIS\app\Views\erp\layout\layout_main.php(23): view('erp/layout/layo...')
+#13 C:\xampp\htdocs\360HRIS\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#14 C:\xampp\htdocs\360HRIS\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#15 C:\xampp\htdocs\360HRIS\system\Common.php(1271): CodeIgniter\View\View->render('erp/layout/layo...', Array, true)
+#16 C:\xampp\htdocs\360HRIS\app\Controllers\Erp\Dashboard.php(61): view('erp/layout/layo...', Array)
+#17 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(928): App\Controllers\Erp\Dashboard->index()
+#18 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\Dashboard))
+#19 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#20 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#21 {main}

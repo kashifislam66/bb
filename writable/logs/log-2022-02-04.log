@@ -1,0 +1,161 @@
+CRITICAL - 2022-02-04 00:09:10 --> date_format() expects parameter 1 to be DateTimeInterface, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'date_format() e...', 'C:\\xampp\\htdocs...', 1370, Array)
+#1 C:\xampp\htdocs\360HRIS\app\Controllers\Erp\Timesheet.php(1370): date_format('2022-02-04 09:0...', 'l')
+#2 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(928): App\Controllers\Erp\Timesheet->add_overtime()
+#3 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\Timesheet))
+#4 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-04 00:09:29 --> Table 'z360h694_icloudhr.ci_chat_messages' doesn't exist
+#0 C:\xampp\htdocs\360HRIS\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\360HRIS\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\360HRIS\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\360HRIS\system\Database\BaseBuilder.php(1981): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\360HRIS\system\Model.php(561): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 C:\xampp\htdocs\360HRIS\app\Views\default\header.php(403): CodeIgniter\Model->countAllResults()
+#6 C:\xampp\htdocs\360HRIS\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\360HRIS\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 C:\xampp\htdocs\360HRIS\system\Common.php(1271): CodeIgniter\View\View->render('default/header', Array, true)
+#9 C:\xampp\htdocs\360HRIS\app\Views\erp\layout\layout_main_company.php(93): view('default/header')
+#10 C:\xampp\htdocs\360HRIS\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\360HRIS\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#12 C:\xampp\htdocs\360HRIS\system\Common.php(1271): CodeIgniter\View\View->render('erp/layout/layo...', Array, true)
+#13 C:\xampp\htdocs\360HRIS\app\Views\erp\layout\layout_main.php(23): view('erp/layout/layo...')
+#14 C:\xampp\htdocs\360HRIS\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\360HRIS\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#16 C:\xampp\htdocs\360HRIS\system\Common.php(1271): CodeIgniter\View\View->render('erp/layout/layo...', Array, true)
+#17 C:\xampp\htdocs\360HRIS\app\Controllers\Erp\Timesheet.php(319): view('erp/layout/layo...', Array)
+#18 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(928): App\Controllers\Erp\Timesheet->overtime_request()
+#19 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\Timesheet))
+#20 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#21 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#22 {main}
+CRITICAL - 2022-02-04 00:10:53 --> date_format() expects parameter 1 to be DateTimeInterface, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'date_format() e...', 'C:\\xampp\\htdocs...', 1370, Array)
+#1 C:\xampp\htdocs\360HRIS\app\Controllers\Erp\Timesheet.php(1370): date_format('2022-02-04 09:0...', 'l')
+#2 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(928): App\Controllers\Erp\Timesheet->add_overtime()
+#3 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\Timesheet))
+#4 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-04 00:12:28 --> strtolower() expects exactly 1 parameter, 2 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'strtolower() ex...', 'C:\\xampp\\htdocs...', 1370, Array)
+#1 C:\xampp\htdocs\360HRIS\app\Controllers\Erp\Timesheet.php(1370): strtolower('2022-02-04 09:0...', 'l')
+#2 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(928): App\Controllers\Erp\Timesheet->add_overtime()
+#3 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\Timesheet))
+#4 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-04 00:14:29 --> A non well formed numeric value encountered
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'A non well form...', 'C:\\xampp\\htdocs...', 1370, Array)
+#1 C:\xampp\htdocs\360HRIS\app\Controllers\Erp\Timesheet.php(1370): date('l', '2022-02-04 09:0...')
+#2 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(928): App\Controllers\Erp\Timesheet->add_overtime()
+#3 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\Timesheet))
+#4 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-04 00:16:38 --> A non well formed numeric value encountered
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'A non well form...', 'C:\\xampp\\htdocs...', 1370, Array)
+#1 C:\xampp\htdocs\360HRIS\app\Controllers\Erp\Timesheet.php(1370): date('l', '2022-02-04')
+#2 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(928): App\Controllers\Erp\Timesheet->add_overtime()
+#3 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\Timesheet))
+#4 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-04 00:18:40 --> Object of class DateTime could not be converted to string
+#0 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(928): App\Controllers\Erp\Timesheet->add_overtime()
+#1 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\Timesheet))
+#2 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-04 00:20:25 --> A non well formed numeric value encountered
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'A non well form...', 'C:\\xampp\\htdocs...', 1370, Array)
+#1 C:\xampp\htdocs\360HRIS\app\Controllers\Erp\Timesheet.php(1370): date('Y-m-d', '2022-02-04')
+#2 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(928): App\Controllers\Erp\Timesheet->add_overtime()
+#3 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\Timesheet))
+#4 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-04 00:24:13 --> Object of class DateTime could not be converted to string
+#0 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(928): App\Controllers\Erp\Timesheet->add_overtime()
+#1 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\Timesheet))
+#2 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-04 03:04:31 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\360HRIS\system\Security\Security.php(240): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\360HRIS\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\360HRIS\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('/erp/timesheet/...', 'before')
+#4 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-04 01:20:07 --> strtotime() expects parameter 1 to be string, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'strtotime() exp...', 'C:\\xampp\\htdocs...', 1360, Array)
+#1 C:\xampp\htdocs\360HRIS\app\Controllers\Erp\Timesheet.php(1360): strtotime(Object(DateTime))
+#2 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(928): App\Controllers\Erp\Timesheet->add_overtime()
+#3 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\Timesheet))
+#4 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-04 10:47:48 --> date_format() expects parameter 1 to be DateTimeInterface, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'date_format() e...', 'C:\\xampp\\htdocs...', 1410, Array)
+#1 C:\xampp\htdocs\360HRIS\app\Controllers\Erp\Timesheet.php(1410): date_format('13:00', 'H:i')
+#2 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(928): App\Controllers\Erp\Timesheet->add_overtime()
+#3 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\Timesheet))
+#4 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-04 11:40:32 --> Undefined variable: company_id
+#0 C:\xampp\htdocs\360HRIS\app\Controllers\Erp\Timesheet.php(1381): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 1381, Array)
+#1 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(928): App\Controllers\Erp\Timesheet->add_overtime()
+#2 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\Timesheet))
+#3 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-04 11:41:41 --> Undefined variable: company_id
+#0 C:\xampp\htdocs\360HRIS\app\Controllers\Erp\Timesheet.php(1381): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 1381, Array)
+#1 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(928): App\Controllers\Erp\Timesheet->add_overtime()
+#2 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\Timesheet))
+#3 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-04 12:47:44 --> Undefined variable: TimesheetModel
+#0 C:\xampp\htdocs\360HRIS\app\Controllers\Erp\Timesheet.php(2045): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 2045, Array)
+#1 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(928): App\Controllers\Erp\Timesheet->approved_attendance()
+#2 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\Timesheet))
+#3 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-04 15:10:27 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\360HRIS\system\Security\Security.php(240): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\360HRIS\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\360HRIS\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('/erp/timesheet/...', 'before')
+#4 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-04 15:18:19 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\360HRIS\system\Security\Security.php(240): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\360HRIS\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\360HRIS\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('/erp/timesheet/...', 'before')
+#4 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-04 15:28:06 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\360HRIS\system\Security\Security.php(240): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\360HRIS\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\360HRIS\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('/erp/timesheet/...', 'before')
+#4 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-04 15:37:27 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\360HRIS\system\Security\Security.php(240): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\360HRIS\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\360HRIS\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('/erp/timesheet/...', 'before')
+#4 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}

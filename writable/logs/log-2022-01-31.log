@@ -1,0 +1,118 @@
+CRITICAL - 2022-01-31 00:50:53 --> date_format() expects parameter 1 to be DateTimeInterface, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'date_format() e...', 'C:\\xampp\\htdocs...', 676, Array)
+#1 C:\xampp\htdocs\360HRIS\app\Controllers\Erp\Leave.php(676): date_format('2022-01-31 09:0...', 'H')
+#2 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(928): App\Controllers\Erp\Leave->add_leave()
+#3 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\Leave))
+#4 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-31 00:51:25 --> A non well formed numeric value encountered
+#0 C:\xampp\htdocs\360HRIS\app\Helpers\main_helper.php(469): CodeIgniter\Debug\Exceptions->errorHandler(8, 'A non well form...', 'C:\\xampp\\htdocs...', 469, Array)
+#1 C:\xampp\htdocs\360HRIS\app\Controllers\Erp\Leave.php(303): count_employee_leave_hours('26', '197', '1')
+#2 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(928): App\Controllers\Erp\Leave->leave_list()
+#3 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\Leave))
+#4 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-31 00:52:13 --> date_format() expects parameter 1 to be DateTimeInterface, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'date_format() e...', 'C:\\xampp\\htdocs...', 676, Array)
+#1 C:\xampp\htdocs\360HRIS\app\Controllers\Erp\Leave.php(676): date_format('2022-01-31 09:0...', 'H')
+#2 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(928): App\Controllers\Erp\Leave->add_leave()
+#3 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\Leave))
+#4 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-31 00:56:12 --> A non well formed numeric value encountered
+#0 C:\xampp\htdocs\360HRIS\app\Helpers\main_helper.php(469): CodeIgniter\Debug\Exceptions->errorHandler(8, 'A non well form...', 'C:\\xampp\\htdocs...', 469, Array)
+#1 C:\xampp\htdocs\360HRIS\app\Controllers\Erp\Leave.php(303): count_employee_leave_hours('26', '197', '1')
+#2 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(928): App\Controllers\Erp\Leave->leave_list()
+#3 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\Leave))
+#4 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-31 00:57:16 --> A non well formed numeric value encountered
+#0 C:\xampp\htdocs\360HRIS\app\Helpers\main_helper.php(469): CodeIgniter\Debug\Exceptions->errorHandler(8, 'A non well form...', 'C:\\xampp\\htdocs...', 469, Array)
+#1 C:\xampp\htdocs\360HRIS\app\Controllers\Erp\Leave.php(303): count_employee_leave_hours('26', '197', '1')
+#2 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(928): App\Controllers\Erp\Leave->leave_list()
+#3 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\Leave))
+#4 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-31 01:10:28 --> A non well formed numeric value encountered
+#0 C:\xampp\htdocs\360HRIS\app\Helpers\main_helper.php(469): CodeIgniter\Debug\Exceptions->errorHandler(8, 'A non well form...', 'C:\\xampp\\htdocs...', 469, Array)
+#1 C:\xampp\htdocs\360HRIS\app\Controllers\Erp\Leave.php(303): count_employee_leave_hours('26', '197', '1')
+#2 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(928): App\Controllers\Erp\Leave->leave_list()
+#3 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\Leave))
+#4 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-31 01:11:07 --> A non well formed numeric value encountered
+#0 C:\xampp\htdocs\360HRIS\app\Helpers\main_helper.php(469): CodeIgniter\Debug\Exceptions->errorHandler(8, 'A non well form...', 'C:\\xampp\\htdocs...', 469, Array)
+#1 C:\xampp\htdocs\360HRIS\app\Controllers\Erp\Leave.php(303): count_employee_leave_hours('26', '197', '1')
+#2 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(928): App\Controllers\Erp\Leave->leave_list()
+#3 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\Leave))
+#4 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-31 04:52:52 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(928): App\Controllers\Erp\Announcements->announcement_list()
+#1 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\Announcements))
+#2 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-31 04:55:06 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(928): App\Controllers\Erp\Announcements->announcement_list()
+#1 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\Announcements))
+#2 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-31 04:55:24 --> Undefined variable: StaffdetailsModel
+#0 C:\xampp\htdocs\360HRIS\app\Controllers\Erp\Announcements.php(121): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 121, Array)
+#1 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(928): App\Controllers\Erp\Announcements->announcement_list()
+#2 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\Announcements))
+#3 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-31 04:59:25 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\360HRIS\app\Controllers\Erp\Announcements.php(133): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 133, Array)
+#1 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(928): App\Controllers\Erp\Announcements->announcement_list()
+#2 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\Announcements))
+#3 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-31 05:05:36 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\360HRIS\app\Controllers\Erp\Announcements.php(134): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 134, Array)
+#1 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(928): App\Controllers\Erp\Announcements->announcement_list()
+#2 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\Announcements))
+#3 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-31 05:08:00 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\360HRIS\app\Controllers\Erp\Announcements.php(134): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 134, Array)
+#1 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(928): App\Controllers\Erp\Announcements->announcement_list()
+#2 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\Announcements))
+#3 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-31 08:28:35 --> Undefined index: is_mandatory
+#0 C:\xampp\htdocs\360HRIS\app\Views\erp\forms\view_form.php(93): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 93, Array)
+#1 C:\xampp\htdocs\360HRIS\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\360HRIS\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\360HRIS\system\Common.php(1271): CodeIgniter\View\View->render('erp/forms/view_...', Array, true)
+#4 C:\xampp\htdocs\360HRIS\app\Controllers\Erp\Forms.php(225): view('erp/forms/view_...', Array)
+#5 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(928): App\Controllers\Erp\Forms->view_form()
+#6 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\Forms))
+#7 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-31 08:28:53 --> Undefined index: is_mandatory
+#0 C:\xampp\htdocs\360HRIS\app\Views\erp\forms\view_form.php(93): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 93, Array)
+#1 C:\xampp\htdocs\360HRIS\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\360HRIS\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\360HRIS\system\Common.php(1271): CodeIgniter\View\View->render('erp/forms/view_...', Array, true)
+#4 C:\xampp\htdocs\360HRIS\app\Controllers\Erp\Forms.php(225): view('erp/forms/view_...', Array)
+#5 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(928): App\Controllers\Erp\Forms->view_form()
+#6 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\Forms))
+#7 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}

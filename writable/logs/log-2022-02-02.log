@@ -1,0 +1,14 @@
+CRITICAL - 2022-02-02 08:37:15 --> Undefined variable: today_date
+#0 C:\xampp\htdocs\360HRIS\app\Controllers\Erp\Timesheet.php(1010): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 1010, Array)
+#1 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(928): App\Controllers\Erp\Timesheet->add_attendance()
+#2 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\Timesheet))
+#3 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-02 08:37:48 --> Undefined variable: today_date
+#0 C:\xampp\htdocs\360HRIS\app\Controllers\Erp\Timesheet.php(1010): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 1010, Array)
+#1 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(928): App\Controllers\Erp\Timesheet->add_attendance()
+#2 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\Timesheet))
+#3 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

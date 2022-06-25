@@ -1,0 +1,99 @@
+CRITICAL - 2022-02-08 03:42:44 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\360HRIS\system\Security\Security.php(240): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\360HRIS\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\360HRIS\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('/erp/timesheet/...', 'before')
+#4 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-08 03:43:26 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\360HRIS\system\Security\Security.php(240): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\360HRIS\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\360HRIS\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('/erp/timesheet/...', 'before')
+#4 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-08 03:47:05 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\360HRIS\system\Security\Security.php(240): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\360HRIS\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\360HRIS\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('/erp/timesheet/...', 'before')
+#4 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-08 02:12:45 --> preg_match(): Unknown modifier ':'
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): U...', 'C:\\xampp\\htdocs...', 1592, Array)
+#1 C:\xampp\htdocs\360HRIS\app\Controllers\Erp\Timesheet.php(1592): preg_match('(1[012]|[1-9]):...', '11:00 AM')
+#2 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(928): App\Controllers\Erp\Timesheet->update_attendance_record()
+#3 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\Timesheet))
+#4 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-08 02:13:31 --> preg_match(): Unknown modifier ':'
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): U...', 'C:\\xampp\\htdocs...', 1592, Array)
+#1 C:\xampp\htdocs\360HRIS\app\Controllers\Erp\Timesheet.php(1592): preg_match('(1[012]|[1-9]):...', '11:00 AM')
+#2 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(928): App\Controllers\Erp\Timesheet->update_attendance_record()
+#3 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\Timesheet))
+#4 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-08 04:24:41 --> syntax error, unexpected '===' (T_IS_IDENTICAL), expecting end of file
+#0 C:\xampp\htdocs\360HRIS\system\Autoloader\Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\360HRIS\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(885): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(421): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-08 02:25:05 --> Cannot use App\Models\SystemModel as SystemModel because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-08 02:26:46 --> Cannot use App\Models\SystemModel as SystemModel because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-08 02:27:14 --> Cannot use App\Models\SystemModel as SystemModel because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-08 04:42:25 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\360HRIS\system\View\View.php(230): include()
+#1 C:\xampp\htdocs\360HRIS\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\360HRIS\system\Common.php(1271): CodeIgniter\View\View->render('erp/leave_repor...', Array, true)
+#3 C:\xampp\htdocs\360HRIS\app\Controllers\Erp\Leave.php(139): view('erp/leave_repor...', Array)
+#4 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(928): App\Controllers\Erp\Leave->leave_summary_report()
+#5 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\Leave))
+#6 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-08 04:43:05 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\360HRIS\system\View\View.php(230): include()
+#1 C:\xampp\htdocs\360HRIS\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\360HRIS\system\Common.php(1271): CodeIgniter\View\View->render('erp/leave_repor...', Array, true)
+#3 C:\xampp\htdocs\360HRIS\app\Controllers\Erp\Leave.php(139): view('erp/leave_repor...', Array)
+#4 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(928): App\Controllers\Erp\Leave->leave_summary_report()
+#5 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\Leave))
+#6 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-08 04:43:31 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\360HRIS\system\View\View.php(230): include()
+#1 C:\xampp\htdocs\360HRIS\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\360HRIS\system\Common.php(1271): CodeIgniter\View\View->render('erp/leave_repor...', Array, true)
+#3 C:\xampp\htdocs\360HRIS\app\Controllers\Erp\Leave.php(139): view('erp/leave_repor...', Array)
+#4 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(928): App\Controllers\Erp\Leave->leave_summary_report()
+#5 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\Leave))
+#6 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-08 04:44:08 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\360HRIS\system\View\View.php(230): include()
+#1 C:\xampp\htdocs\360HRIS\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\360HRIS\system\Common.php(1271): CodeIgniter\View\View->render('erp/leave_repor...', Array, true)
+#3 C:\xampp\htdocs\360HRIS\app\Controllers\Erp\Leave.php(139): view('erp/leave_repor...', Array)
+#4 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(928): App\Controllers\Erp\Leave->leave_summary_report()
+#5 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\Leave))
+#6 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

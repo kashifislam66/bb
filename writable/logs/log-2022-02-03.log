@@ -1,0 +1,225 @@
+CRITICAL - 2022-02-03 12:24:27 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\360HRIS\system\Security\Security.php(240): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\360HRIS\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\360HRIS\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('/erp/timesheet/...', 'before')
+#4 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-03 11:36:44 --> date_format() expects parameter 1 to be DateTimeInterface, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'date_format() e...', 'C:\\xampp\\htdocs...', 1572, Array)
+#1 C:\xampp\htdocs\360HRIS\app\Controllers\Erp\Timesheet.php(1572): date_format('13:00', 'H')
+#2 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(928): App\Controllers\Erp\Timesheet->update_attendance_record()
+#3 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\Timesheet))
+#4 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-03 11:40:38 --> Table 'z360h694_icloudhr.ci_chat_messages' doesn't exist
+#0 C:\xampp\htdocs\360HRIS\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\360HRIS\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\360HRIS\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\360HRIS\system\Database\BaseBuilder.php(1981): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\360HRIS\system\Model.php(561): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 C:\xampp\htdocs\360HRIS\app\Views\default\header.php(403): CodeIgniter\Model->countAllResults()
+#6 C:\xampp\htdocs\360HRIS\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\360HRIS\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 C:\xampp\htdocs\360HRIS\system\Common.php(1271): CodeIgniter\View\View->render('default/header', Array, true)
+#9 C:\xampp\htdocs\360HRIS\app\Views\erp\layout\layout_main_company.php(93): view('default/header')
+#10 C:\xampp\htdocs\360HRIS\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\360HRIS\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#12 C:\xampp\htdocs\360HRIS\system\Common.php(1271): CodeIgniter\View\View->render('erp/layout/layo...', Array, true)
+#13 C:\xampp\htdocs\360HRIS\app\Views\erp\layout\layout_main.php(23): view('erp/layout/layo...')
+#14 C:\xampp\htdocs\360HRIS\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\360HRIS\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#16 C:\xampp\htdocs\360HRIS\system\Common.php(1271): CodeIgniter\View\View->render('erp/layout/layo...', Array, true)
+#17 C:\xampp\htdocs\360HRIS\app\Controllers\Erp\Timesheet.php(194): view('erp/layout/layo...', Array)
+#18 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(928): App\Controllers\Erp\Timesheet->update_attendance_view()
+#19 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\Timesheet))
+#20 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#21 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#22 {main}
+CRITICAL - 2022-02-03 11:42:20 --> Undefined variable: hchat_msgs_count
+#0 C:\xampp\htdocs\360HRIS\app\Views\default\header.php(407): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 407, Array)
+#1 C:\xampp\htdocs\360HRIS\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\360HRIS\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\360HRIS\system\Common.php(1271): CodeIgniter\View\View->render('default/header', Array, true)
+#4 C:\xampp\htdocs\360HRIS\app\Views\erp\layout\layout_main_company.php(93): view('default/header')
+#5 C:\xampp\htdocs\360HRIS\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\360HRIS\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\360HRIS\system\Common.php(1271): CodeIgniter\View\View->render('erp/layout/layo...', Array, true)
+#8 C:\xampp\htdocs\360HRIS\app\Views\erp\layout\layout_main.php(23): view('erp/layout/layo...')
+#9 C:\xampp\htdocs\360HRIS\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\360HRIS\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#11 C:\xampp\htdocs\360HRIS\system\Common.php(1271): CodeIgniter\View\View->render('erp/layout/layo...', Array, true)
+#12 C:\xampp\htdocs\360HRIS\app\Controllers\Erp\Timesheet.php(194): view('erp/layout/layo...', Array)
+#13 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(928): App\Controllers\Erp\Timesheet->update_attendance_view()
+#14 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\Timesheet))
+#15 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#17 {main}
+CRITICAL - 2022-02-03 11:52:12 --> date_format() expects parameter 1 to be DateTimeInterface, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'date_format() e...', 'C:\\xampp\\htdocs...', 1572, Array)
+#1 C:\xampp\htdocs\360HRIS\app\Controllers\Erp\Timesheet.php(1572): date_format('13:00', 'H')
+#2 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(928): App\Controllers\Erp\Timesheet->update_attendance_record()
+#3 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\Timesheet))
+#4 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-03 13:54:57 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\360HRIS\system\Security\Security.php(240): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\360HRIS\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\360HRIS\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('/erp/timesheet/...', 'before')
+#4 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-03 11:58:14 --> date_format() expects parameter 1 to be DateTimeInterface, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'date_format() e...', 'C:\\xampp\\htdocs...', 1574, Array)
+#1 C:\xampp\htdocs\360HRIS\app\Controllers\Erp\Timesheet.php(1574): date_format('13:00', 'H')
+#2 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(928): App\Controllers\Erp\Timesheet->update_attendance_record()
+#3 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\Timesheet))
+#4 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-03 14:01:14 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\360HRIS\system\Security\Security.php(240): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\360HRIS\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\360HRIS\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('/erp/timesheet/...', 'before')
+#4 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-03 12:02:01 --> Undefined variable: total_work
+#0 C:\xampp\htdocs\360HRIS\app\Controllers\Erp\Timesheet.php(1611): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 1611, Array)
+#1 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(928): App\Controllers\Erp\Timesheet->update_attendance_record()
+#2 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\Timesheet))
+#3 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-03 14:37:02 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\360HRIS\system\Security\Security.php(240): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\360HRIS\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\360HRIS\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('/erp/timesheet/...', 'before')
+#4 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-03 14:37:06 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\360HRIS\system\Security\Security.php(240): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\360HRIS\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\360HRIS\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('/erp/timesheet/...', 'before')
+#4 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-03 14:37:07 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\360HRIS\system\Security\Security.php(240): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\360HRIS\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\360HRIS\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('/erp/timesheet/...', 'before')
+#4 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-03 14:37:08 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\360HRIS\system\Security\Security.php(240): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\360HRIS\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\360HRIS\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('/erp/timesheet/...', 'before')
+#4 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-03 14:37:09 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\360HRIS\system\Security\Security.php(240): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\360HRIS\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\360HRIS\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('/erp/timesheet/...', 'before')
+#4 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-03 14:37:10 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\360HRIS\system\Security\Security.php(240): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\360HRIS\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\360HRIS\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('/erp/timesheet/...', 'before')
+#4 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-03 14:37:23 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\360HRIS\system\Security\Security.php(240): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\360HRIS\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\360HRIS\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('/erp/timesheet/...', 'before')
+#4 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-03 12:57:22 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(928): App\Controllers\Erp\Timesheet->timesheet_attendance_employee_list()
+#1 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\Timesheet))
+#2 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-03 12:59:17 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(928): App\Controllers\Erp\Timesheet->timesheet_attendance_employee_list()
+#1 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\Timesheet))
+#2 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-03 12:59:43 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(928): App\Controllers\Erp\Timesheet->timesheet_attendance_employee_list()
+#1 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\Timesheet))
+#2 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-03 13:00:20 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(928): App\Controllers\Erp\Timesheet->timesheet_attendance_employee_list()
+#1 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\Timesheet))
+#2 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-03 13:00:51 --> Class 'App\Controllers\Erp\stdClass' not found
+#0 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(928): App\Controllers\Erp\Timesheet->timesheet_attendance_employee_list()
+#1 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\Timesheet))
+#2 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-03 13:01:50 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::findAll()
+#0 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(928): App\Controllers\Erp\Timesheet->timesheet_attendance_employee_list()
+#1 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\Timesheet))
+#2 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-03 13:07:51 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(928): App\Controllers\Erp\Timesheet->timesheet_attendance_employee_list()
+#1 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\Timesheet))
+#2 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-03 13:08:51 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(928): App\Controllers\Erp\Timesheet->timesheet_attendance_employee_list()
+#1 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\Timesheet))
+#2 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-03 15:59:59 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\360HRIS\system\Security\Security.php(240): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\360HRIS\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\360HRIS\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('/erp/timesheet/...', 'before')
+#4 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-03 14:15:51 --> A non well formed numeric value encountered
+#0 C:\xampp\htdocs\360HRIS\app\Views\erp\dashboard\staff_dashboard_v2.php(825): CodeIgniter\Debug\Exceptions->errorHandler(8, 'A non well form...', 'C:\\xampp\\htdocs...', 825, Array)
+#1 C:\xampp\htdocs\360HRIS\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\360HRIS\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\360HRIS\system\Common.php(1271): CodeIgniter\View\View->render('erp/dashboard/s...', Array, true)
+#4 C:\xampp\htdocs\360HRIS\app\Views\erp\dashboard\index.php(40): view('erp/dashboard/s...')
+#5 C:\xampp\htdocs\360HRIS\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\360HRIS\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\360HRIS\system\Common.php(1271): CodeIgniter\View\View->render('erp/dashboard/i...', Array, true)
+#8 C:\xampp\htdocs\360HRIS\app\Controllers\Erp\Dashboard.php(60): view('erp/dashboard/i...', Array)
+#9 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(928): App\Controllers\Erp\Dashboard->index()
+#10 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\Dashboard))
+#11 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#13 {main}

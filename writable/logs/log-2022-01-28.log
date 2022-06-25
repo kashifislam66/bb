@@ -1,0 +1,54 @@
+CRITICAL - 2022-01-28 13:10:40 --> Class 'CodeIgniter\Database\Database' not found
+#0 C:\xampp\htdocs\360HRIS\system\Database\Config.php(79): CodeIgniter\Database\Config::ensureFactory()
+#1 C:\xampp\htdocs\360HRIS\system\Model.php(104): CodeIgniter\Database\Config::connect('default')
+#2 C:\xampp\htdocs\360HRIS\app\Controllers\BaseController.php(42): CodeIgniter\Model->__construct()
+#3 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(901): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#4 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-28 13:15:21 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Database).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-01-28 13:15:21 --> Class 'CodeIgniter\Database\Database' not found
+#0 C:\xampp\htdocs\360HRIS\system\Database\Config.php(79): CodeIgniter\Database\Config::ensureFactory()
+#1 C:\xampp\htdocs\360HRIS\system\Model.php(104): CodeIgniter\Database\Config::connect('default')
+#2 C:\xampp\htdocs\360HRIS\app\Controllers\BaseController.php(42): CodeIgniter\Model->__construct()
+#3 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(901): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#4 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-28 13:15:37 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Database).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-01-28 13:17:34 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Database).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-01-28 13:17:34 --> Class 'CodeIgniter\Database\Database' not found
+#0 C:\xampp\htdocs\360HRIS\system\Database\Config.php(79): CodeIgniter\Database\Config::ensureFactory()
+#1 C:\xampp\htdocs\360HRIS\system\Model.php(104): CodeIgniter\Database\Config::connect('default')
+#2 C:\xampp\htdocs\360HRIS\app\Controllers\BaseController.php(42): CodeIgniter\Model->__construct()
+#3 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(901): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#4 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-28 13:28:47 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Database).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-01-28 13:28:47 --> Class 'CodeIgniter\Database\Database' not found
+#0 C:\xampp\htdocs\360HRIS\system\Database\Config.php(79): CodeIgniter\Database\Config::ensureFactory()
+#1 C:\xampp\htdocs\360HRIS\system\Model.php(104): CodeIgniter\Database\Config::connect('default')
+#2 C:\xampp\htdocs\360HRIS\app\Controllers\BaseController.php(42): CodeIgniter\Model->__construct()
+#3 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(901): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#4 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-28 13:52:34 --> Toolbar collector does not exists(CodeIgniter\Debug\Toolbar\Collectors\Database).please check $collectors in the Config\Toolbar.php file.
+CRITICAL - 2022-01-28 13:52:35 --> call_user_func() expects parameter 1 to be a valid callback, class 'CodeIgniter\Debug\Toolbar\Collectors\Database' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'call_user_func(...', 'C:\\xampp\\htdocs...', 166, Array)
+#1 C:\xampp\htdocs\360HRIS\system\Events\Events.php(166): call_user_func('CodeIgniter\\Deb...', Object(CodeIgniter\Database\Query))
+#2 C:\xampp\htdocs\360HRIS\system\Database\BaseConnection.php(692): CodeIgniter\Events\Events::trigger('DBQuery', Object(CodeIgniter\Database\Query))
+#3 C:\xampp\htdocs\360HRIS\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\360HRIS\system\Model.php(228): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\360HRIS\system\BaseModel.php(644): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\360HRIS\app\Controllers\Home.php(31): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#8 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}

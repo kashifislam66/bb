@@ -1,0 +1,189 @@
+CRITICAL - 2022-01-29 04:35:41 --> Undefined index: kiosk_code
+#0 C:\xampp\htdocs\360HRIS\app\Views\erp\employees\staff_details.php(1217): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 1217, Array)
+#1 C:\xampp\htdocs\360HRIS\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\360HRIS\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\360HRIS\system\Common.php(1271): CodeIgniter\View\View->render('erp/employees/s...', Array, true)
+#4 C:\xampp\htdocs\360HRIS\app\Controllers\Erp\Employees.php(162): view('erp/employees/s...', Array)
+#5 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(928): App\Controllers\Erp\Employees->staff_details()
+#6 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\Employees))
+#7 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-29 05:16:51 --> A non well formed numeric value encountered
+#0 C:\xampp\htdocs\360HRIS\app\Views\erp\dashboard\staff_dashboard_v2.php(822): CodeIgniter\Debug\Exceptions->errorHandler(8, 'A non well form...', 'C:\\xampp\\htdocs...', 822, Array)
+#1 C:\xampp\htdocs\360HRIS\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\360HRIS\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\360HRIS\system\Common.php(1271): CodeIgniter\View\View->render('erp/dashboard/s...', Array, true)
+#4 C:\xampp\htdocs\360HRIS\app\Views\erp\dashboard\index.php(40): view('erp/dashboard/s...')
+#5 C:\xampp\htdocs\360HRIS\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\360HRIS\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\360HRIS\system\Common.php(1271): CodeIgniter\View\View->render('erp/dashboard/i...', Array, true)
+#8 C:\xampp\htdocs\360HRIS\app\Controllers\Erp\Dashboard.php(60): view('erp/dashboard/i...', Array)
+#9 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(928): App\Controllers\Erp\Dashboard->index()
+#10 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\Dashboard))
+#11 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-01-29 10:05:33 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\360HRIS\system\Security\Security.php(240): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\360HRIS\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\360HRIS\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('/erp/timesheet/...', 'before')
+#4 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-29 11:39:57 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\360HRIS\system\Security\Security.php(240): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\360HRIS\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\360HRIS\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('/erp/timesheet/...', 'before')
+#4 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-29 10:44:56 --> Call to undefined function exclude_hours()
+#0 C:\xampp\htdocs\360HRIS\system\View\View.php(230): include()
+#1 C:\xampp\htdocs\360HRIS\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\360HRIS\system\Common.php(1271): CodeIgniter\View\View->render('erp/reports/tim...', Array, true)
+#3 C:\xampp\htdocs\360HRIS\app\Controllers\Erp\Reports.php(342): view('erp/reports/tim...', Array)
+#4 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(928): App\Controllers\Erp\Reports->timesheet_report()
+#5 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\Reports))
+#6 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-29 11:07:31 --> explode() expects parameter 2 to be string, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'explode() expec...', 'C:\\xampp\\htdocs...', 390, Array)
+#1 C:\xampp\htdocs\360HRIS\app\Helpers\main_helper.php(390): explode(':', Object(DateInterval))
+#2 C:\xampp\htdocs\360HRIS\app\Views\erp\reports\timesheet_report.php(709): explode_time(Object(DateInterval))
+#3 C:\xampp\htdocs\360HRIS\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\360HRIS\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\360HRIS\system\Common.php(1271): CodeIgniter\View\View->render('erp/reports/tim...', Array, true)
+#6 C:\xampp\htdocs\360HRIS\app\Controllers\Erp\Reports.php(342): view('erp/reports/tim...', Array)
+#7 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(928): App\Controllers\Erp\Reports->timesheet_report()
+#8 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\Reports))
+#9 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-01-29 14:08:35 --> The action you requested is not allowed.
+#0 C:\xampp\htdocs\360HRIS\system\Security\Security.php(240): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp\htdocs\360HRIS\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp\htdocs\360HRIS\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(407): CodeIgniter\Filters\Filters->run('/erp/timesheet/...', 'before')
+#4 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-29 12:16:03 --> date() expects parameter 2 to be int, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'date() expects ...', 'C:\\xampp\\htdocs...', 1875, Array)
+#1 C:\xampp\htdocs\360HRIS\app\Controllers\Erp\Timesheet.php(1875): date('H', Object(DateTime))
+#2 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(928): App\Controllers\Erp\Timesheet->set_clocking()
+#3 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\Timesheet))
+#4 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-29 12:16:59 --> date() expects parameter 2 to be int, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'date() expects ...', 'C:\\xampp\\htdocs...', 1875, Array)
+#1 C:\xampp\htdocs\360HRIS\app\Controllers\Erp\Timesheet.php(1875): date('H', Object(DateTime))
+#2 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(928): App\Controllers\Erp\Timesheet->set_clocking()
+#3 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\Timesheet))
+#4 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-29 12:18:27 --> date() expects parameter 2 to be int, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'date() expects ...', 'C:\\xampp\\htdocs...', 1875, Array)
+#1 C:\xampp\htdocs\360HRIS\app\Controllers\Erp\Timesheet.php(1875): date('H', Object(DateTime))
+#2 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(928): App\Controllers\Erp\Timesheet->set_clocking()
+#3 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\Timesheet))
+#4 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-29 12:19:06 --> date_diff() expects parameter 1 to be DateTimeInterface, null given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'date_diff() exp...', 'C:\\xampp\\htdocs...', 1876, Array)
+#1 C:\xampp\htdocs\360HRIS\app\Controllers\Erp\Timesheet.php(1876): date_diff(NULL, NULL)
+#2 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(928): App\Controllers\Erp\Timesheet->set_clocking()
+#3 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\Timesheet))
+#4 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-29 12:20:32 --> date_diff() expects parameter 1 to be DateTimeInterface, null given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'date_diff() exp...', 'C:\\xampp\\htdocs...', 1876, Array)
+#1 C:\xampp\htdocs\360HRIS\app\Controllers\Erp\Timesheet.php(1876): date_diff(NULL, NULL)
+#2 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(928): App\Controllers\Erp\Timesheet->set_clocking()
+#3 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\Timesheet))
+#4 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-29 12:22:32 --> Class 'App\Controllers\Erp\DateTime' not found
+#0 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(928): App\Controllers\Erp\Timesheet->set_clocking()
+#1 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\Timesheet))
+#2 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-29 12:23:50 --> Class 'App\Controllers\Erp\DateTime' not found
+#0 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(928): App\Controllers\Erp\Timesheet->set_clocking()
+#1 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\Timesheet))
+#2 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-29 12:24:57 --> date_diff() expects parameter 1 to be DateTimeInterface, null given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'date_diff() exp...', 'C:\\xampp\\htdocs...', 1877, Array)
+#1 C:\xampp\htdocs\360HRIS\app\Controllers\Erp\Timesheet.php(1877): date_diff(NULL, NULL)
+#2 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(928): App\Controllers\Erp\Timesheet->set_clocking()
+#3 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\Timesheet))
+#4 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-29 12:25:23 --> date_diff() expects parameter 1 to be DateTimeInterface, null given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'date_diff() exp...', 'C:\\xampp\\htdocs...', 1877, Array)
+#1 C:\xampp\htdocs\360HRIS\app\Controllers\Erp\Timesheet.php(1877): date_diff(NULL, NULL)
+#2 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(928): App\Controllers\Erp\Timesheet->set_clocking()
+#3 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\Timesheet))
+#4 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-29 12:27:37 --> date_diff() expects parameter 1 to be DateTimeInterface, null given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'date_diff() exp...', 'C:\\xampp\\htdocs...', 1877, Array)
+#1 C:\xampp\htdocs\360HRIS\app\Controllers\Erp\Timesheet.php(1877): date_diff(NULL, NULL)
+#2 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(928): App\Controllers\Erp\Timesheet->set_clocking()
+#3 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\Timesheet))
+#4 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-29 12:28:55 --> date_diff() expects parameter 1 to be DateTimeInterface, null given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'date_diff() exp...', 'C:\\xampp\\htdocs...', 1877, Array)
+#1 C:\xampp\htdocs\360HRIS\app\Controllers\Erp\Timesheet.php(1877): date_diff(NULL, NULL)
+#2 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(928): App\Controllers\Erp\Timesheet->set_clocking()
+#3 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\Timesheet))
+#4 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-29 12:29:49 --> date_diff() expects parameter 1 to be DateTimeInterface, null given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'date_diff() exp...', 'C:\\xampp\\htdocs...', 1879, Array)
+#1 C:\xampp\htdocs\360HRIS\app\Controllers\Erp\Timesheet.php(1879): date_diff(NULL, NULL)
+#2 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(928): App\Controllers\Erp\Timesheet->set_clocking()
+#3 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\Timesheet))
+#4 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-29 13:14:28 --> date() expects parameter 2 to be int, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'date() expects ...', 'C:\\xampp\\htdocs...', 1914, Array)
+#1 C:\xampp\htdocs\360HRIS\app\Controllers\Erp\Timesheet.php(1914): date('H', Object(DateTime))
+#2 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(928): App\Controllers\Erp\Timesheet->set_clocking()
+#3 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\Timesheet))
+#4 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-29 13:17:07 --> strtotime() expects parameter 1 to be string, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'strtotime() exp...', 'C:\\xampp\\htdocs...', 1908, Array)
+#1 C:\xampp\htdocs\360HRIS\app\Controllers\Erp\Timesheet.php(1908): strtotime(Object(DateTime))
+#2 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(928): App\Controllers\Erp\Timesheet->set_clocking()
+#3 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\Timesheet))
+#4 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-29 13:17:39 --> strtotime() expects parameter 1 to be string, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'strtotime() exp...', 'C:\\xampp\\htdocs...', 1908, Array)
+#1 C:\xampp\htdocs\360HRIS\app\Controllers\Erp\Timesheet.php(1908): strtotime(Object(DateTime))
+#2 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(928): App\Controllers\Erp\Timesheet->set_clocking()
+#3 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Erp\Timesheet))
+#4 C:\xampp\htdocs\360HRIS\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\360HRIS\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
